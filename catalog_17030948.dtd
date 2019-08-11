@@ -1,0 +1,46 @@
+<!ELEMENT OneStopIT (CompanyInfo, CompanyDepartments, Staffs)>
+
+<!ELEMENT CompanyInfo (Name, Address, Phone+, Website,Logo)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (City, State, PostBox)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT PostBox (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT Logo (#PCDATA)>
+
+<!ELEMENT CompanyDepartments (CompanyHead, Department+)>
+
+<!ELEMENT CompanyHead (HeadName, Landline, Mobile, Email)>
+<!ELEMENT HeadName (#PCDATA)>
+<!ELEMENT Landline (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Department (DeptName, DeptHead, DeptDescription, NumberOfProjects)>
+<!ATTLIST Department deptID CDATA #REQUIRED>
+<!ELEMENT DeptName (#PCDATA)>
+<!ELEMENT DeptHead (#PCDATA)>
+<!ELEMENT DeptDescription (#PCDATA)>
+<!ELEMENT NumberOfProjects (#PCDATA)>
+
+<!ELEMENT Staffs (Staff+)>
+<!ELEMENT Staff (StaffName, DepartmentName)>
+<!ATTLIST Staff DeptID CDATA #REQUIRED>
+<!ATTLIST Staff StaffID CDATA #REQUIRED>
+<!ELEMENT StaffName (#PCDATA)>
+<!ELEMENT DepartmentName (#PCDATA)>
+
+<!-- 
+The + sign declares that the child element 
+must occur one or more time in the root element.
+-->
+<!--
+The * sign declares that the child element 
+can occur zero or more times inside the root element.
+-->
+<!--
+The ? sign declares that the child element
+can occur zero or one time inside the root element.
+--> 

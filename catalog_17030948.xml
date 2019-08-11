@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OneStopIT>
+  <CompanyInfo>
+    <Name>One Stop IT Company</Name>
+    <Address>
+      <City>Lalitpur</City>
+      <State>State-3</State>
+      <PostBox>0234</PostBox>
+    </Address>
+    <Phone>015555555</Phone>
+    <Phone>015454545</Phone>
+    <Website>www.onestopit.com</Website>
+    <Logo/>
+  </CompanyInfo>
+  <CompanyDepartments>
+    <CompanyHead>
+      <HeadName>Summit Shakya</HeadName>
+      <Landline>014444444</Landline>
+      <Mobile>7418529630</Mobile>
+      <Email>summitshakya@hotmail.com</Email>
+    </CompanyHead>
+    <Department deptID="1">
+      <DeptName>Production</DeptName>
+      <DeptHead>Sujan Mahat</DeptHead>
+      <DeptDescription>The production department works for development of products.</DeptDescription>
+      <NumberOfProjects>5 tasks </NumberOfProjects>
+    </Department>
+    <Department deptID="2">
+      <DeptName>Marketing</DeptName>
+      <DeptHead>Lijen Basnet</DeptHead>
+      <DeptDescription>This department works for the betterment of the business.</DeptDescription>
+      <NumberOfProjects>2 tasks </NumberOfProjects>
+    </Department>
+    <Department deptID="3">
+      <DeptName>Accounting</DeptName>
+      <DeptHead>Rehana Shrestha</DeptHead>
+      <DeptDescription>This department works for maintaining the accounting records of the company.</DeptDescription>
+      <NumberOfProjects>2 tasks </NumberOfProjects>
+    </Department>
+    <Department deptID="4">
+      <DeptName>Human Resource Management</DeptName>
+      <DeptHead>Siron Rana</DeptHead>
+      <DeptDescription>This department works for management of available human resources in the company.</DeptDescription>
+      <NumberOfProjects>1 tasks </NumberOfProjects>
+    </Department>
+    <Department deptID="5">
+      <DeptName>Research And Development</DeptName>
+      <DeptHead>Malina Joshi</DeptHead>
+      <DeptDescription>This department works for betterment of available services and development of new services.</DeptDescription>
+      <NumberOfProjects>1 tasks </NumberOfProjects>
+    </Department>
+  </CompanyDepartments>
+  <Staffs>
+    <Staff DeptID="1" StaffID="ST01">
+      <StaffName>Sudip</StaffName>
+      <DepartmentName>Production</DepartmentName>
+    </Staff>
+    <Staff DeptID="1" StaffID="ST02">
+      <StaffName>Tejashwi</StaffName>
+      <DepartmentName>Production</DepartmentName>
+    </Staff>
+    <Staff DeptID="1" StaffID="ST03">
+      <StaffName>Bibek</StaffName>
+      <DepartmentName>Production</DepartmentName>
+    </Staff>
+    <Staff DeptID="2" StaffID="ST04">
+      <StaffName>Sulav</StaffName>
+      <DepartmentName>Accounting</DepartmentName>
+    </Staff>
+    <Staff DeptID="2" StaffID="ST05">
+      <StaffName>Angel</StaffName>
+      <DepartmentName>Accounting</DepartmentName>
+    </Staff>
+    <Staff DeptID="3" StaffID="ST06">
+      <StaffName>Ayusha</StaffName>
+      <DepartmentName>Marketing</DepartmentName>
+    </Staff>
+    <Staff DeptID="4" StaffID="ST07">
+      <StaffName>Salin</StaffName>
+      <DepartmentName>Human Resource Management</DepartmentName>
+    </Staff>
+    <Staff DeptID="4" StaffID="ST08">
+      <StaffName>Kunjal</StaffName>
+      <DepartmentName>Human Resource Management</DepartmentName>
+    </Staff>
+    <Staff DeptID="5" StaffID="ST09">
+      <StaffName>Kashish</StaffName>
+      <DepartmentName>Research And Development</DepartmentName>
+    </Staff>
+    <Staff DeptID="5" StaffID="ST10">
+      <StaffName>Nimesh</StaffName>
+      <DepartmentName>Research And Development</DepartmentName>
+    </Staff>
+  </Staffs>
+</OneStopIT>
